@@ -1,0 +1,199 @@
+1,5.0,7,4.0,90.0,1,LOW,8.0
+2,3.0,7.0,6.0,85.0,0,MEDIUM,6.5
+3,7.0,8,2.0,95.0,1,LOW,9.0
+4,10.0,6,8.0,80.0,0,HIGH,5.5
+5,6.0,7,5.0,92.0,1,MEDIUM,7.8
+6,4.0,9,3.0,88.0,0,MEDIUM,7.0
+7,8.0,3,10.0,98.0,1,HIGH,6.2
+8,2.0,5,12.0,70.0,0,HIGH,4.5
+9,6.0,8,4.0,94.0,1,LOW,8.5
+10,5.0,7,5.0,89.0,0,MEDIUM,7.2
+11,9.0,6,1.0,96.0,1,LOW,9.2
+12,1.0,10,7.0,82.0,0,MEDIUM,5.8
+13,7.0,8,3.0,91.0,1,LOW,8.1
+14,4.0,4,9.0,86.0,0,HIGH,6.0
+15,6.0,7,4.0,93.0,1,MEDIUM,7.5
+16,3.0,8,11.0,78.0,0,HIGH,5.0
+17,8.0,7,2.0,97.0,1,LOW,8.8
+18,5.0,7.0,6.0,87.0,0,MEDIUM,6.8
+19,7.0,9,3.0,95.0,1,LOW,9.1
+20,2.0,5,13.0,75.0,0,HIGH,4.2
+- 'Exported' 20 rows to console (cleaned data above).
+=== Data Exploration ===
+- Loaded 20 unique rows (duplicates: 1).
+- Headers: [Student_ID, Hours_Study, Sleep_Hours, Screen_Time, Attendance, Extracurricular, Stress_Level, CGPA]
+- Missing Sleep_Hours: 2 (9.5%).
+- Missing Stress_Level: 1 (4.8%).
+- Sleep_Hours outliers: 1
+
+=== Data Preprocessing ===
+- Preprocessed 20 rows.
+
+=== Exploratory Data Analysis (EDA) ===
+- Avg Hours_Study: 5.4
+- Avg CGPA: 7.0
+- Corr Hours_Study-CGPA: 0.61
+- Corr Sleep_Hours-CGPA: 0.38
+- Corr Screen_Time-CGPA: -0.94
+
+=== Insights with Visualizations (Swing Windows) ===
+- Opening windows sequentially (close each to see next).
+
+=== Cleaned Data (first 5 rows) ===
+[1, 5.0, 7, 4.0, 90.0, 1, LOW, 8.0]
+[2, 3.0, 7.0, 6.0, 85.0, 0, MEDIUM, 6.5]
+[3, 7.0, 8, 2.0, 95.0, 1, LOW, 9.0]
+[4, 10.0, 6, 8.0, 80.0, 0, HIGH, 5.5]
+[5, 6.0, 7, 5.0, 92.0, 1, MEDIUM, 7.8]
+=== Data Exploration ===
+- Loaded 20 unique rows (duplicates: 1).
+- Headers: [Student_ID, Hours_Study, Sleep_Hours, Screen_Time, Attendance, Extracurricular, Stress_Level, CGPA]
+- Missing Sleep_Hours: 2 (9.5%).
+- Missing Stress_Level: 1 (4.8%).
+- Sleep_Hours outliers: 1
+
+=== Data Preprocessing ===
+- Preprocessed 20 rows.
+
+=== Exploratory Data Analysis (EDA) ===
+- Avg Hours_Study: 5.4
+- Avg CGPA: 7.0
+- Corr Hours_Study-CGPA: 0.61
+- Corr Sleep_Hours-CGPA: 0.38
+- Corr Screen_Time-CGPA: -0.94
+
+=== Insights with Visualizations (Swing Windows) ===
+- Opening windows sequentially (close each to see next).
+
+=== Cleaned Data (first 5 rows) ===
+[1, 5.0, 7, 4.0, 90.0, 1, LOW, 8.0]
+[2, 3.0, 7.0, 6.0, 85.0, 0, MEDIUM, 6.5]
+[3, 7.0, 8, 2.0, 95.0, 1, LOW, 9.0]
+[4, 10.0, 6, 8.0, 80.0, 0, HIGH, 5.5]
+[5, 6.0, 7, 5.0, 92.0, 1, MEDIUM, 7.8]
+=== Data Exploration ===
+- Loaded 20 unique rows (duplicates removed: 1).
+- Headers: [Student_ID, Hours_Study, Sleep_Hours, Screen_Time, Attendance, Extracurricular, Stress_Level, CGPA]
+- Missing Sleep_Hours: 2
+- Missing Stress_Level: 1
+
+=== Data Preprocessing ===
+- Preprocessed 20 rows.
+
+=== Exploratory Data Analysis (EDA) ===
+- Avg Hours_Study: 5.4
+- Avg CGPA: 7.0
+
+=== Insights with Visualizations ===
+
+=== Cleaned Data (first 5 rows) ===
+[1, 5.0, 7, 4.0, 90.0, 1, LOW, 8.0]
+[2, 3.0, 7.0, 6.0, 85.0, 0, MEDIUM, 6.5]
+[3, 7.0, 8, 2.0, 95.0, 1, LOW, 9.0]
+[4, 10.0, 6, 8.0, 80.0, 0, HIGH, 5.5]
+[5, 6.0, 7, 5.0, 92.0, 1, MEDIUM, 7.8]
+=== Data Exploration ===
+- Loaded 20 unique rows.
+=== EDA ===
+- Avg Hours Study: 5.5
+- Avg CGPA: 7.034999999999999
+=== Insights with Visuals ===
+Loaded 0 students from CSV!
+=== Data Exploration ===
+- Loaded 20 unique rows.
+=== EDA ===
+- Avg Hours Study: 5.5
+- Avg CGPA: 7.034999999999999
+=== Insights with Visuals ===
+Loaded 0 students from CSV!
+=== Data Exploration ===
+- Loaded 20 unique rows.
+=== EDA ===
+- Avg Hours Study: 5.5
+- Avg CGPA: 7.034999999999999
+=== Insights with Visuals ===
+=== Data Exploration ===
+- Loaded 20 unique rows.
+=== EDA ===
+- Avg Hours Study: 5.5
+- Avg CGPA: 7.034999999999999
+=== Insights with Visuals ===
+=== Data Exploration ===
+- Loaded 0 unique rows.
+- Preprocessing done.
+=== Data Exploration ===
+- Loaded 0 unique rows.
+- Preprocessing done.
+=== Data Exploration ===
+- Loaded 0 unique rows.
+- Preprocessing done.
+=== Data Exploration ===
+- Loaded 0 unique rows.
+- Preprocessing done.
+- Cleaned dataset exported to: student_wellbeing_cleaned.csv
+=== EDA ===
+=== Insights with Visuals ===
+=== Data Exploration ===
+- Loaded 0 unique rows.
+- Preprocessing done.
+- Cleaned dataset exported to: student_wellbeing_cleaned.csv
+=== EDA ===
+=== Insights with Visuals ===
+=== Data Exploration ===
+- Loaded 0 unique rows.
+- Preprocessing done.
+- Cleaned dataset exported to: student_wellbeing_cleaned.csv
+=== EDA ===
+=== Insights with Visuals ===
+=== Data Exploration ===
+- Loaded 0 unique rows.
+- Preprocessing done.
+- Cleaned dataset exported to: student_wellbeing_cleaned.csv
+=== EDA ===
+=== Insights with Visuals ===
+=== Data Exploration ===
+- Loaded 0 unique rows.
+- Preprocessing done.
+- Cleaned dataset exported to: student_wellbeing_cleaned.csv
+=== EDA ===
+=== Insights with Visuals ===
+=== Data Exploration ===
+- Loaded 0 unique rows.
+- Preprocessing done.
+- Cleaned dataset exported to: student_wellbeing_cleaned.csv
+=== EDA ===
+=== Insights with Visuals ===
+=== Data Exploration ===
+- Loaded 0 unique rows.
+- Preprocessing done.
+- Cleaned dataset exported to: student_wellbeing_cleaned.csv
+=== EDA ===
+=== Insights with Visuals ===
+=== Data Loading ===
+=== Data Loading ===
+=== Data Exploration ===
+- Loaded 20 unique rows.
+=== EDA ===
+- Avg Hours Study: 5.5
+- Avg CGPA: 7.034999999999999
+=== Insights with Visuals ===
+=== Data Exploration ===
+- Loaded 0 unique rows.
+- Preprocessing done.
+=== EDA ===
+- Avg Hours Study: NaN
+- Avg CGPA: NaN
+=== Insights with Visuals ===
+=== Data Exploration ===
+- Loaded 0 unique rows.
+- Preprocessing done.
+=== EDA ===
+- Avg Hours Study: NaN
+- Avg CGPA: NaN
+=== Insights with Visuals ===
+=== Data Exploration ===
+- Loaded 20 unique rows.
+=== EDA ===
+- Avg Hours Study: 5.5
+- Avg CGPA: 7.034999999999999
+=== Insights with Visuals ===
